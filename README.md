@@ -1,6 +1,6 @@
-# Standardy pro zachycení výsledků rozpoznání textu (HCR, OCR)
+# Standardy pro zachycení výsledků rozpoznání tištěného a rukopisného textu (OCR, HTR)
 Doprovodné materiály k publikovanému článku
 
-## Standards for Optical Characters and Handwrittent Text Recognition (OCR, HTR)
+## Standards for Optical Character and Handwrittent Text Recognition (OCR, HTR)
 Supplementary materials
 
