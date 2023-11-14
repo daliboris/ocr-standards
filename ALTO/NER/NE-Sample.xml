@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+  xmlns:op="ORBIS-PICTUS"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# ../XSD/v4_alto-4.4.xsd"
+  >
+  <Description>
+    
+    <MeasurementUnit>pixel</MeasurementUnit>
+    
+    <sourceImageInformation>
+      
+      <fileName>NE-sample.xml</fileName>
+    </sourceImageInformation>
+    
+    <Processing ID="OCR_1">
+      
+        <processingDateTime>2024-11-14T15:20:00</processingDateTime>
+        <processingAgency>Moravská zemská knihovna v Brně</processingAgency>
+        <processingSoftware>
+          <softwareCreator>Boris Lehečka</softwareCreator>
+          <softwareName>copy-and-paste-and-change</softwareName>
+        </processingSoftware>
+    </Processing>
+  </Description>
+  
+  <Tags>
+    <NamedEntityTag ID="net.napoleon" LABEL="Napoleon" TYPE="person"></NamedEntityTag>
+    <NamedEntityTag ID="net.horse" LABEL="Horse" TYPE="animal"></NamedEntityTag>
+    <NamedEntityTag ID="net.map" LABEL="Map" TYPE="thing"></NamedEntityTag>
+  </Tags>
+  <Layout>
+    
+    <Page ID="PAGE_8" HEIGHT="3572" WIDTH="2224" PHYSICAL_IMG_NR="8">
+      <PrintSpace ID="PrintSpace_9" HPOS="827" VPOS="302" HEIGHT="8" WIDTH="280">
+        <Illustration ID="Illustration_4" HPOS="220" VPOS="1472" HEIGHT="1036" WIDTH="1566" TYPE="Picture" TAGREFS="net.napoleon net.horse net.map" IDNEXT="label.caption">
+          <Shape> <!-- op:ne="net.napoleon" -->
+            <Polygon POINTS="641,33 1608,33 1608,601 3123,601 3123,3673 641,3673" />
+          </Shape>
+        </Illustration>
+        <TextBlock ID="label">
+          <TextLine>
+            <String ID="label.caption" CONTENT="Popisek obrázku"></String>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>
