@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# ../../../XSD/v4_alto-4.4.xsd"
- xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pc="https://pero-ocr.fit.vutbr.cz/ns/2.0">
   <Description>
     <MeasurementUnit>pixel</MeasurementUnit>
     <sourceImageInformation>
@@ -22,18 +22,18 @@
   <Tags>
     <RoleTag ID="pic.obrazek" TYPE="illustration" LABEL="Obrázek s loutkami">
       <XmlData>
-        <pero-ocr confidence="0.89" label="Obrázek s loutkami">
-          <keywords xml:lang="cs">loutky, harelkýn</keywords>
-          <keywords xml:lang="en">puppets, harlequin</keywords>
-        </pero-ocr> 
+        <pc:pero-ocr confidence="0.89" label="Obrázek s loutkami">
+          <pc:keywords xml:lang="cs">loutky, harelkýn</pc:keywords>
+          <pc:keywords xml:lang="en">puppets, harlequin</pc:keywords>
+        </pc:pero-ocr> 
       </XmlData>
     </RoleTag>
     <RoleTag ID="pic.symbol" TYPE="smybol" LABEL="Symbol s cenou">
       <XmlData>
-        <pero-ocr confidence="0.89" label="Symbol s cenou">
-          <keywords xml:lang="cs">cenovka, 3 Kč</keywords>
-          <keywords xml:lang="en">price tag, 3 Kč</keywords>
-        </pero-ocr> 
+        <pc:pero-ocr confidence="0.89" label="Symbol s cenou">
+          <pc:keywords xml:lang="cs">cenovka, 3 Kč</pc:keywords>
+          <pc:keywords xml:lang="en">price tag, 3 Kč</pc:keywords>
+        </pc:pero-ocr> 
       </XmlData>
     </RoleTag>
   </Tags>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# ../../../XSD/v4_alto-4.4.xsd"
-  xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xlink="http://www.w3.org/1999/xlink">
+  xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pc="https://pero-ocr.fit.vutbr.cz/ns/2.0">
   <Description>
     <MeasurementUnit>pixel</MeasurementUnit>
     <sourceImageInformation>
@@ -21,17 +21,17 @@
   <Tags>
     <RoleTag ID="pic.obrazek" TYPE="illustration" LABEL="Obrázek dětí v krajině, které pohřbívají kanárka">
       <XmlData>
-        <pero-ocr confidence="0.92" label="Obrázek dětí v krajině, které pohřbívají kanárka">
-          <keywords xml:lang="cs">obrázek, děti, vůz, les, pohřeb</keywords>
-          <keywords xml:lang="en">picture, children, cart, forest, funeral</keywords>
-        </pero-ocr> 
+        <pc:pero-ocr confidence="0.92" label="Obrázek dětí v krajině, které pohřbívají kanárka">
+          <pc:keywords xml:lang="cs">obrázek, děti, vůz, les, pohřeb</pc:keywords>
+          <pc:keywords xml:lang="en">picture, children, cart, forest, funeral</pc:keywords>
+        </pc:pero-ocr> 
       </XmlData>
     </RoleTag>
     <RoleTag ID="pic.iniciala" TYPE="initial" LABEL="Iniciála J">
       <XmlData>
-        <pero-ocr confidence="0.91" text="J" descriuption="Iniciála J" />
-        <keywords xml:lang="cs">iniciálka</keywords>
-        <keywords xml:lang="en">initial</keywords>
+        <pc:pero-ocr confidence="0.91" text="J" descriuption="Iniciála J" />
+        <pc:keywords xml:lang="cs">iniciálka</pc:keywords>
+        <pc:keywords xml:lang="en">initial</pc:keywords>
       </XmlData>
     </RoleTag>
   </Tags>
