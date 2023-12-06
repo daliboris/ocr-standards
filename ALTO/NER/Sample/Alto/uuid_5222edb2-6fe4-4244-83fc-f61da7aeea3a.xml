@@ -200,7 +200,7 @@
             <String CONTENT="Jeho" HEIGHT="45" WIDTH="83" VPOS="569" HPOS="1560" WC="1"/>
           </TextLine>
         </TextBlock>
-        <Illustration ID="illustration_002" HEIGHT="60" WIDTH="60" VPOS="60" HPOS="60" TAGREFS="pic.obrazek"  IDNEXT="block_r002"/>
+        <Illustration ID="illustration_002" HEIGHT="60" WIDTH="60" VPOS="60" HPOS="60" TAGREFS="pic.obrazek" />
         <TextBlock ID="block_r002" HEIGHT="60" WIDTH="654" VPOS="1782" HPOS="515">
           <TextLine BASELINE="1827" VPOS="1782" HPOS="515" HEIGHT="60" WIDTH="654">
             <String CONTENT="Pohřeb" HEIGHT="53" WIDTH="243" VPOS="1783" HPOS="546" WC="1"/>
