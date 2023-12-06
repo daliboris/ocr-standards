@@ -1,0 +1,105 @@
+# Identifikace rozpznaných entit a dalších součástí textu
+
+Návod na použití elemetnů typu `<Tag>` je součástí [příkladů](https://altoxml.github.io/documentation/use-cases/tags/ALTO_tags_usecases.html) k Altu na GitHubu.
+
+Z ukázek vyplývá:
+
+- atribut `@LABEL` označuje spíš typ elementu (např. *Table*, *MathFormula*, *Advertisements*, *Map*)
+  - příklady pro `<LayoutTag>`
+    - Sidebar
+    - Table
+    - MathFormula
+    - ChemFormula
+    - PhyFormula
+    - TextStamped
+    - Handwriting
+    - Manuscript
+    - ScriptFonts
+    - NonLatinFont
+    - Masterhead
+    - Advertisements
+    - SmallAds
+    - Map
+    - Engraving
+    - Graphic
+    - Chart
+    - Linedrawing
+    - Photo
+    - MusicalScore
+    - TransitionSep
+    - FootnoteSep
+    - Stamp
+    - DropCap
+    - Illegible
+    - Noise    
+  - příklady pro `<StructureTag>`
+    - Cover
+    - TitlePage
+    - Catalog
+    - CopyrightPage
+    - Foreword
+    - Notice
+    - TOC
+    - BodyMatter
+    - LOI
+    - Appendix
+    - LOT
+    - Conclusion
+    - Glossary
+    - Bibliography
+    - Index
+    - RunningTitle
+    - Part
+    - Chapter
+    - FullTitle
+    - Title1
+    - Title2
+    - FootnoteReference
+    - Footnote
+    - Marginalia
+    - FigureCaption
+    - FigureReference
+    - ReferenceToFigure
+    - TableCaption
+    - TableReference
+    - ReferenceToTable
+    - PageNumber
+    - ReferenceToPage
+    - UL
+    - OL
+    - Masterhead
+    - Date
+    - SectionHeading
+    - Heading
+    - ArticleTitle
+    - ArticleTitle1
+    - ArticleTitle2
+    - ArticleSubTitle
+    - SubHeading
+    - Place
+    - Date
+    - ArticleAuthor
+    - Illustration
+  - příklady pro `<RoleTag>`
+    - Author
+    - Illustrator
+    - Publisher
+    - ill (= drawings creator)
+    -  aui (= author of the introduction)
+  - příklady pro `<NamedEntityTag>`
+    - Person
+    - Organization
+    - Location    
+- atribut `@TYPE` označuje obecnější bližší specifikaci popisku (`@LABEL`), např. *TYPE="Formula" LABEL="ChemFormula"*, *TYPE="Functional" LABEL="cover"*, *TYPE="Structural" LABEL="Part"*
+  - příklady pro `<LayoutTag>`
+    - Table
+    - Sidebar
+    - Formula
+    - TextStamped
+    - Typesetting
+  - příklady pro `<StructureTag>`
+    - Functional
+    - Structural
+    - Reference
+- atribut `@DESCRIPTION` obsahuje textový obsah označovaného prvku (*L’AURORE – avril 1942*), popř. přiblížení, co je obsahem elementu (*Maurice Ravel* u notového zápisu, *Aspartame formula* u chemického vzorce)
+- atribut `@URI` obsahuje odkaz na bližší informace o elementu, často na autoritní záznam rozpoznané entity    
