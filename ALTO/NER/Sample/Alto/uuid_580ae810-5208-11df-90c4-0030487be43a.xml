@@ -20,22 +20,26 @@
   </Description>
   
   <Tags>
-    <RoleTag ID="pic.obrazek" TYPE="illustration" LABEL="Obrázek s loutkami">
+    <StructureTag ID="pic.obrazek" TYPE="Structural" LABEL="Illustration" DESCRIPTION="Obrázek s loutkam">
       <XmlData>
-        <pc:pero-ocr confidence="0.89" label="Obrázek s loutkami">
+        <pc:pero-ocr confidence="0.89">
+          <pc:label xml:lang="cs">Obrázek s loutkami</pc:label>
+          <pc:label xml:lang="en">Picture with puppets</pc:label>
           <pc:keywords xml:lang="cs">loutky, harelkýn</pc:keywords>
           <pc:keywords xml:lang="en">puppets, harlequin</pc:keywords>
         </pc:pero-ocr> 
       </XmlData>
-    </RoleTag>
-    <RoleTag ID="pic.symbol" TYPE="smybol" LABEL="Symbol s cenou">
+    </StructureTag>
+    <StructureTag ID="pic.symbol" TYPE="Structural" LABEL="smybol" DESCRIPTION="Symbol s cenou">
       <XmlData>
-        <pc:pero-ocr confidence="0.89" label="Symbol s cenou">
+        <pc:pero-ocr confidence="0.89">
+          <pc:label xml:lang="cs">Symbol s cenou</pc:label>
+          <pc:label xml:lang="en">Price symbol</pc:label>
           <pc:keywords xml:lang="cs">cenovka, 3 Kč</pc:keywords>
           <pc:keywords xml:lang="en">price tag, 3 Kč</pc:keywords>
         </pc:pero-ocr> 
       </XmlData>
-    </RoleTag>
+    </StructureTag>
   </Tags>
   
   <Layout>

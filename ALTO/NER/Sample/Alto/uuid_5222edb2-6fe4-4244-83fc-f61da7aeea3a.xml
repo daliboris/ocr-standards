@@ -19,17 +19,21 @@
     </OCRProcessing>
   </Description>
   <Tags>
-    <RoleTag ID="pic.obrazek" TYPE="illustration" LABEL="Obrázek dětí v krajině, které pohřbívají kanárka">
+    <StructureTag ID="pic.obrazek" TYPE="Structural" LABEL="Illustration"  DESCRIPTION="Obrázek dětí v krajině, které pohřbívají kanárka">
       <XmlData>
-        <pc:pero-ocr confidence="0.92" label="Obrázek dětí v krajině, které pohřbívají kanárka">
+        <pc:pero-ocr confidence="0.92" label="">
+          <pc:label xml:lang="cs">Obrázek dětí v krajině, které pohřbívají kanárka</pc:label>
+          <pc:label xml:lang="en">Picture of children in the landscape burying a canary</pc:label>
           <pc:keywords xml:lang="cs">obrázek, děti, vůz, les, pohřeb</pc:keywords>
           <pc:keywords xml:lang="en">picture, children, cart, forest, funeral</pc:keywords>
         </pc:pero-ocr> 
       </XmlData>
-    </RoleTag>
-    <RoleTag ID="pic.iniciala" TYPE="initial" LABEL="Iniciála J">
+    </StructureTag>
+    <RoleTag ID="pic.iniciala" TYPE="Typesetting" LABEL="DropCap" DESCRIPTION="J">
       <XmlData>
-        <pc:pero-ocr confidence="0.91" text="J" descriuption="Iniciála J" />
+        <pc:pero-ocr confidence="0.91" text="J" />
+        <pc:label xml:lang="cs">Iniciála J</pc:label>
+        <pc:label xml:lang="en">Initial J</pc:label>
         <pc:keywords xml:lang="cs">iniciálka</pc:keywords>
         <pc:keywords xml:lang="en">initial</pc:keywords>
       </XmlData>
