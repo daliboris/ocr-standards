@@ -20,7 +20,7 @@
   </Description>
   
   <Tags>
-    <StructureTag ID="pic.obrazek" TYPE="Structural" LABEL="Illustration" DESCRIPTION="Obrázek s loutkam">
+    <StructureTag ID="pic.obrazek" TYPE="Structural" LABEL="Illustration" DESCRIPTION="Obrázek s loutkami">
       <XmlData>
         <pc:pero-ocr confidence="0.89">
           <pc:label xml:lang="cs">Obrázek s loutkami</pc:label>
