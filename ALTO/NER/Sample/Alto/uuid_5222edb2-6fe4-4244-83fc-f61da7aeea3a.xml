@@ -21,7 +21,7 @@
   <Tags>
     <StructureTag ID="pic.obrazek" TYPE="Structural" LABEL="Illustration"  DESCRIPTION="Obrázek dětí v krajině, které pohřbívají kanárka">
       <XmlData>
-        <pc:pero-ocr confidence="0.92" label="">
+        <pc:pero-ocr confidence="0.92">
           <pc:label xml:lang="cs">Obrázek dětí v krajině, které pohřbívají kanárka</pc:label>
           <pc:label xml:lang="en">Picture of children in the landscape burying a canary</pc:label>
           <pc:keywords xml:lang="cs">obrázek, děti, vůz, les, pohřeb</pc:keywords>
@@ -29,7 +29,7 @@
         </pc:pero-ocr> 
       </XmlData>
     </StructureTag>
-    <RoleTag ID="pic.iniciala" TYPE="Typesetting" LABEL="DropCap" DESCRIPTION="J">
+    <LayoutTag ID="pic.iniciala" TYPE="Typesetting" LABEL="DropCap" DESCRIPTION="J">
       <XmlData>
         <pc:pero-ocr confidence="0.91" text="J" />
         <pc:label xml:lang="cs">Iniciála J</pc:label>
@@ -37,7 +37,7 @@
         <pc:keywords xml:lang="cs">iniciálka</pc:keywords>
         <pc:keywords xml:lang="en">initial</pc:keywords>
       </XmlData>
-    </RoleTag>
+    </LayoutTag>
   </Tags>
   <Layout>
     <Page ID="id_uuid_5222edb2-6fe4-4244-83fc-f61da7aeea3a" PHYSICAL_IMG_NR="1" HEIGHT="2704" WIDTH="1801">
