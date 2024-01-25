@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:pc="https://pero-ocr.fit.vutbr.cz/ns/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# ../XSD/v4_alto-4.4.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>page-number.xml</fileName>
+    </sourceImageInformation>
+    <Processing ID="OCR_1">
+      <processingDateTime>2024-01-25T16:05:00</processingDateTime>
+      <processingAgency>Moravská zemská knihovna v Brně</processingAgency>
+      <processingStepDescription>Označení čísla strany v tisku pomocí elementu &lt;StructureTag TYPE="Functional" LABEL="PageNumber"&gt;, na který se pomocí atributu @TAGREFS odkazuje z prvku, který číslo strany reálně obsahuje.</processingStepDescription>
+      <processingSoftware>
+        <softwareCreator>Boris Lehečka</softwareCreator>
+        <softwareName>copy-and-paste-and-change</softwareName>
+      </processingSoftware>
+    </Processing>
+  </Description>
+  <Tags>
+    <!-- Atribut @DESCRIPTION obsahuje text identifikující číslo strany. -->
+    <StructureTag ID="pb.35" TYPE="Functional" LABEL="PageNumber" DESCRIPTION="35"/>
+  </Tags>
+  <Layout>
+    <Page ID="id_uuid_5222edb2-6fe4-4244-83fc-f61da7aeea3a" PHYSICAL_IMG_NR="1" HEIGHT="2704" WIDTH="1801">
+      <TopMargin HEIGHT="107" WIDTH="1801" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="2704" WIDTH="38" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="2704" WIDTH="0" VPOS="0" HPOS="1801"/>
+      <BottomMargin HEIGHT="0" WIDTH="1801" VPOS="2704" HPOS="0"/>
+      <PrintSpace HEIGHT="2596" WIDTH="1762" VPOS="107" HPOS="38">
+        <!-- 
+          Atribut @TAGREFS obsahuje identifikátor odkazující na prvek <StructureTag> s číslem strany.
+          Atribut se použije u nejvyšší nadřazeného prvku, který je shodný s obsahem. 
+          Pokud záhlaví strany (<TextBlock>) obsahuje více textu než jen číslo strany, použije se odkaz na <StructureTag> pouze u odpovídajícího elementu <String>.
+          U víceslovnéch označení čísla strny typu "Strana 3" může být odkaz na <StructureTag> u několika elementu <String>.
+        -->
+        <TextBlock ID="block_r004" HEIGHT="36" WIDTH="62" VPOS="107" HPOS="835" TAGREFS="pb.35">
+          <TextLine BASELINE="136" VPOS="107" HPOS="835" HEIGHT="36" WIDTH="62">
+            <String CONTENT="35" HEIGHT="36" WIDTH="36" VPOS="107" HPOS="849" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>
