@@ -4,6 +4,21 @@ Návod na použití elemetnů typu `<Tag>` je součástí [příkladů](https://
 
 Z ukázek vyplývá:
 
+Odlišné typy značek:
+
+- `<LayoutTag>`
+  - prvky, které souvisejí s rozložením textu na stránce (a jdou nad rámec boků textu nebo ilustrací)
+  - tabulka, vzorec, razítko, záhlaví, reklama, mapa, grafika, noty, předěl, iniciála    
+- `<StructureTag>`
+  - prvky, které sovisejí s obsahem textu, jeho logickým strukturováním
+  - obálka, titulní stránka, předmluva, obsah, index, seznam ilustrací, živé záhlaví, kapitola, nadpisy, podnadpisy, číslo poznámky pod čarou, poznámka pod čarou, odkaz na poznámku pod čarou, marginálie, popisek obrázku, číslo obrázku, odkaz na obrázek (tabulku, mapu ap.), seznamy, 
+- `<RoleTag>`
+  - lidé a instituce odpovědní za vznik publikace: autor, ilustrátor, nakladatel, autor předmluvy ap. 
+- `<NamedEntityTag>`
+  - rozpoznané entity: osoby, místa, organizae, čísla ap. 
+- `<OtherTag>`
+  - další typ značky
+
 - atribut `@LABEL` označuje spíš typ elementu (např. *Table*, *MathFormula*, *Advertisements*, *Map*)
   - příklady pro `<LayoutTag>`
     - Sidebar
@@ -101,5 +116,11 @@ Z ukázek vyplývá:
     - Functional
     - Structural
     - Reference
-- atribut `@DESCRIPTION` obsahuje textový obsah označovaného prvku (*L’AURORE – avril 1942*), popř. přiblížení, co je obsahem elementu (*Maurice Ravel* u notového zápisu, *Aspartame formula* u chemického vzorce)
-- atribut `@URI` obsahuje odkaz na bližší informace o elementu, často na autoritní záznam rozpoznané entity    
+- atribut `@DESCRIPTION` podle [doporučení](https://altoxml.github.io/documentation/use-cases/tags/ALTO_tags_usecases.html) může obsahovat popis vyznačené oblasti, textový obsah označovaného prvku (*L’AURORE – avril 1942*), popř. přiblížení, co je obsahem elementu (*Maurice Ravel* u notového zápisu, *Aspartame formula* u chemického vzorce)
+- atribut `@URI` obsahuje odkaz na bližší informace o elementu, často na autoritní záznam rozpoznané entity
+
+Odkazy na definované tagy:
+
+- při odkazování na definované prvky se používá atribut `@TAGREFS`, který může obsahovat několik identifikátorů
+- více identifikátorů se použije v případech, kdy se pasáže v textu překrývají, např. označení instituce (*Parlament České republiky*), jehož součástí je i označení státu (*Česká republika*) 
+- odkazy (tj. `@TAGREFS`) se používají na nejvyšší možné úrovni, tj. pokud se nějaký prvek vztahuje k celém bloku, použije se na úrovni `<TextBlock>`, nikoli na jednotlivé řádky (`<TextLine>`) nebo slova (`<String>`)
