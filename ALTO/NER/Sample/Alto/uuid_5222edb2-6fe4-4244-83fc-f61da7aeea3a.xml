@@ -38,6 +38,14 @@
         <pc:keywords xml:lang="en">initial</pc:keywords>
       </XmlData>
     </LayoutTag>
+    <StructureTag ID="fgc.illustration_001" TYPE="Functional" LABEL="FigureCaption" DESCRIPTION="Pohřeb kanárka"/>
+    <OtherTag ID="crtf.illustration_001" TYPE="Content" LABEL="RelatedToFigure" DESCRIPTION="do všech koutů světa chtěla roznésti">
+      <XmlData>
+        <pc:pero-ocr confidence="0.73" text="do všech koutů světa chtěla roznésti">
+          <pc:related target="pic.obrazek"/>
+        </pc:pero-ocr>
+      </XmlData>
+    </OtherTag>
   </Tags>
   <Layout>
     <Page ID="id_uuid_5222edb2-6fe4-4244-83fc-f61da7aeea3a" PHYSICAL_IMG_NR="1" HEIGHT="2704" WIDTH="1801">
@@ -205,7 +213,7 @@
           </TextLine>
         </TextBlock>
         <Illustration ID="illustration_002" HEIGHT="60" WIDTH="60" VPOS="60" HPOS="60" TAGREFS="pic.obrazek" />
-        <TextBlock ID="block_r002" HEIGHT="60" WIDTH="654" VPOS="1782" HPOS="515">
+        <TextBlock ID="block_r002" HEIGHT="60" WIDTH="654" VPOS="1782" HPOS="515" TAGREFS="fgc.illustration_001">
           <TextLine BASELINE="1827" VPOS="1782" HPOS="515" HEIGHT="60" WIDTH="654">
             <String CONTENT="Pohřeb" HEIGHT="53" WIDTH="243" VPOS="1783" HPOS="546" WC="1"/>
             <SP WIDTH="4" VPOS="1783" HPOS="789"/>
@@ -293,18 +301,18 @@
             <SP WIDTH="4" VPOS="2229" HPOS="402"/>
             <String CONTENT="ji" HEIGHT="45" WIDTH="36" VPOS="2230" HPOS="432" WC="1"/>
             <SP WIDTH="4" VPOS="2230" HPOS="469"/>
-            <String CONTENT="do" HEIGHT="45" WIDTH="36" VPOS="2231" HPOS="504" WC="1"/>
+            <String CONTENT="do" HEIGHT="45" WIDTH="36" VPOS="2231" HPOS="504" WC="1" TAGREFS="crtf.illustration_001"/>
             <SP WIDTH="4" VPOS="2231" HPOS="541"/>
-            <String CONTENT="všech" HEIGHT="46" WIDTH="92" VPOS="2232" HPOS="583" WC="1"/>
+            <String CONTENT="všech" HEIGHT="46" WIDTH="92" VPOS="2232" HPOS="583" WC="1" TAGREFS="crtf.illustration_001"/>
             <SP WIDTH="4" VPOS="2232" HPOS="675"/>
-            <String CONTENT="koutů" HEIGHT="46" WIDTH="98" VPOS="2235" HPOS="711" WC="1"/>
+            <String CONTENT="koutů" HEIGHT="46" WIDTH="98" VPOS="2235" HPOS="711" WC="1" TAGREFS="crtf.illustration_001"/>
           </TextLine>
           <TextLine BASELINE="2310" VPOS="2268" HPOS="38" HEIGHT="57" WIDTH="780">
-            <String CONTENT="světa" HEIGHT="45" WIDTH="87" VPOS="2269" HPOS="44" WC="1"/>
+            <String CONTENT="světa" HEIGHT="45" WIDTH="87" VPOS="2269" HPOS="44" WC="1" TAGREFS="crtf.illustration_001"/>
             <SP WIDTH="4" VPOS="2269" HPOS="132"/>
-            <String CONTENT="chtěla" HEIGHT="46" WIDTH="104" VPOS="2271" HPOS="167" WC="1"/>
+            <String CONTENT="chtěla" HEIGHT="46" WIDTH="104" VPOS="2271" HPOS="167" WC="1" TAGREFS="crtf.illustration_001"/>
             <SP WIDTH="4" VPOS="2271" HPOS="272"/>
-            <String CONTENT="roznésti," HEIGHT="47" WIDTH="160" VPOS="2273" HPOS="308" WC="1"/>
+            <String CONTENT="roznésti," HEIGHT="47" WIDTH="160" VPOS="2273" HPOS="308" WC="1" TAGREFS="crtf.illustration_001"/>
             <SP WIDTH="4" VPOS="2273" HPOS="468"/>
             <String CONTENT="potom" HEIGHT="46" WIDTH="104" VPOS="2276" HPOS="504" WC="1"/>
             <SP WIDTH="4" VPOS="2276" HPOS="609"/>
