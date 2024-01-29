@@ -1,0 +1,249 @@
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2024-01-05T16:04:07.696202+00:00</Created>
+    <LastChange>2024-01-05T16:04:07.696202+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="hudba-vecneho-zivota-02" imageWidth="2480" imageHeight="3509">
+    <ReadingOrder>
+      <UnorderedGroup id="root">
+        <OrderedGroup id="bite_1">
+          <RegionRefIndexed regionRef="r002" index="0"/>
+          <RegionRefIndexed regionRef="r001" index="1"/>
+        </OrderedGroup>
+        <OrderedGroup id="bite_2">
+          <RegionRefIndexed regionRef="r000" index="0"/>
+        </OrderedGroup>
+      </UnorderedGroup>
+    </ReadingOrder>
+    <TextRegion id="r000" type="heading">
+      <Coords points="232,404 233,997 242,1084 236,1169 359,1265 1862,1270 2008,1098 2008,327 2002,239 1406,244 234,234 232,404"/>
+      <TextLine id="ebea129e-f348-4c6e-b428-1383f158823f" index="0" custom="heights_v2:[64.5,20.0]">
+        <Coords points="819,239 627,239 435,239 234,234 233,318 435,324 627,324 825,324 1017,324 1214,324 1406,329 1604,329 1796,329 2004,324 2002,239 1794,244 1604,244 1406,244 819,239"/>
+        <Baseline points="234,298 435,304 627,304 825,304 1017,304 1214,304 1406,309 1604,309 1796,309 2003,304"/>
+        <TextEquiv>
+          <Unicode>mimo dům od minulého dne odpoledne. Byl v le-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="75c96caa-36fa-4106-8c04-835f3a62905a" index="1" custom="heights_v2:[62.1,19.2]">
+        <Coords points="2008,327 1801,327 1604,327 1411,327 1214,327 1022,327 825,327 632,327 435,327 234,322 232,404 435,409 632,409 825,409 1022,409 1214,409 1411,409 1604,409 1801,409 2008,409 2008,327"/>
+        <Baseline points="233,384 435,390 632,390 825,390 1022,390 1214,390 1411,390 1604,390 1801,390 2008,390"/>
+        <TextEquiv>
+          <Unicode>se za Vřesovým údolím, ale popíral, že by byl</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="4f931d29-7a65-4516-8e72-816e8b4649e5" index="2" custom="heights_v2:[61.1,18.7]">
+        <Coords points="232,484 435,489 632,489 825,489 1022,489 1214,489 1411,494 1604,494 1801,494 2008,489 2008,470 2007,409 1799,414 1604,414 1411,414 1216,409 1022,409 825,409 632,409 435,409 234,404 232,482 232,484"/>
+        <Baseline points="233,465 435,470 632,470 825,470 1022,470 1214,470 1411,476 1604,476 1801,476 2008,470"/>
+        <TextEquiv>
+          <Unicode>zbloudil. Stále jen opakoval, že slyšel zpívati ze-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="34065fb6-ad9a-40c9-b1f1-979158a87f93" index="3" custom="heights_v2:[60.6,18.6]">
+        <Coords points="232,570 430,570 627,570 825,570 1017,570 1214,570 1411,570 1604,575 1801,575 2008,575 2008,496 1801,496 1604,496 1413,491 1214,491 1017,491 825,491 627,491 430,491 232,491 232,570"/>
+        <Baseline points="232,551 430,551 627,551 825,551 1017,551 1214,551 1411,551 1604,556 1801,556 2008,556"/>
+        <TextEquiv>
+          <Unicode>mi. V proudu svých zmatených odpovědí vrhl se</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="7b5f7e88-be7c-4436-8b67-f8a8db740b06" index="4" custom="heights_v2:[62.0,19.2]">
+        <Coords points="2008,575 1801,575 1604,575 1413,570 1212,575 1023,570 825,570 632,570 435,570 233,570 233,651 435,651 632,651 825,651 1021,651 1215,657 1411,651 1604,657 1801,657 2008,657 2008,575"/>
+        <Baseline points="233,632 435,632 632,632 825,632 1022,632 1214,637 1411,632 1604,637 1801,637 2008,637"/>
+        <TextEquiv>
+          <Unicode>pojednou opět na zem, jakoby naslouchati chtěl</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="7c409554-1b3f-41b9-af8a-ee80d1f6984a" index="5" custom="heights_v2:[61.4,19.4]">
+        <Coords points="232,728 319,733 395,733 470,733 546,733 622,733 698,733 774,733 850,733 941,733 941,652 850,652 774,652 698,652 622,652 546,652 470,652 395,652 319,652 236,647 232,712 232,728"/>
+        <Baseline points="233,708 319,713 395,713 470,713 546,713 622,713 698,713 774,713 850,713 941,713"/>
+        <TextEquiv>
+          <Unicode>hlasu z její hlubin.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="808a862c-014c-4d8d-b402-e14ccbb622e6" index="6" custom="heights_v2:[64.7,20.5]">
+        <Coords points="2008,750 1816,750 1634,750 1457,750 1275,750 1094,745 916,745 733,745 553,740 364,740 364,825 551,825 733,830 916,830 1092,830 1275,835 1457,835 1634,835 1816,835 2008,835 2008,750"/>
+        <Baseline points="364,804 551,804 733,809 916,809 1093,809 1275,814 1457,814 1634,814 1816,814 2008,814"/>
+        <TextEquiv>
+          <Unicode>„Už toho není,“ řekl, když se opět vzchopil.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f689f0f4-992b-4595-9683-7e7c839ae29b" index="7" custom="heights_v2:[63.2,20.2]">
+        <Coords points="2008,895 2007,832 1799,837 1610,832 1411,832 1219,832 1022,832 830,832 632,832 442,827 236,832 238,916 440,911 632,916 830,916 1022,916 1219,916 1411,916 1608,916 1801,921 2008,916 2008,895"/>
+        <Baseline points="238,895 440,890 632,895 830,895 1022,895 1219,895 1411,895 1609,895 1801,900 2008,895"/>
+        <TextEquiv>
+          <Unicode>„Ale nemohl jsem pryč, dokud země zpívala. A</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e0dec8bb-c60d-4886-808c-a82b3bee05f6" index="8" custom="heights_v2:[65.5,21.1]">
+        <Coords points="379,997 516,997 657,997 794,1002 936,1002 1072,1002 1214,1002 1351,1002 1503,997 1500,911 1348,916 1214,916 1072,916 936,916 794,916 660,911 516,911 379,911 233,911 233,997 379,997"/>
+        <Baseline points="233,976 379,976 516,976 658,976 794,981 936,981 1072,981 1214,981 1351,981 1502,976"/>
+        <TextEquiv>
+          <Unicode>země zpívala po celou noc a den.“</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="a63f3c88-ee32-4b92-ac0a-65e0aacbd575" index="9" custom="heights_v2:[66.7,20.5]">
+        <Coords points="2008,1011 1816,1011 1634,1011 1452,1011 1268,1016 1089,1011 905,1011 725,1006 541,1006 354,1006 354,1093 541,1093 723,1093 905,1098 1087,1098 1270,1103 1452,1098 1634,1098 1816,1098 2008,1098 2008,1011"/>
+        <Baseline points="354,1072 541,1072 723,1072 905,1077 1088,1077 1270,1083 1452,1077 1634,1077 1816,1077 2008,1077"/>
+        <TextEquiv>
+          <Unicode>Myslili všichni, že jest nemocen a že blouzní</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="ada604f4-69a3-434f-b7cd-30e9ff021d38" index="10" custom="heights_v2:[64.7,20.6]">
+        <Coords points="236,1169 309,1174 369,1174 430,1174 491,1174 551,1174 627,1174 627,1089 551,1089 491,1089 430,1089 369,1089 309,1089 242,1084 236,1169"/>
+        <Baseline points="238,1148 309,1153 369,1153 430,1153 491,1153 551,1153 627,1153"/>
+        <TextEquiv>
+          <Unicode>z horečky.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="266a4ce6-8d34-497b-a47f-baccdc1d23fd" index="11" custom="heights_v2:[66.9,20.5]">
+        <Coords points="1862,1270 1862,1183 1684,1183 1518,1183 1356,1183 1189,1183 1027,1183 860,1183 698,1183 531,1183 361,1178 359,1265 1862,1270"/>
+        <Baseline points="359,1244 531,1249 698,1249 860,1249 1027,1249 1189,1249 1356,1249 1518,1249 1684,1249 1862,1249"/>
+        <TextEquiv>
+          <Unicode>I já jsem byl mezi těmi, kdož tak myslili.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r002">
+      <Coords points="1184,1428 1057,1428 1057,1517 1184,1517 1184,1428"/>
+      <TextLine id="4b014a10-0172-4987-b25d-35d2a83f21e0" index="0" custom="heights_v2:[69.0,19.6]">
+        <Coords points="1057,1428 1057,1517 1184,1517 1184,1428 1057,1428"/>
+        <Baseline points="1057,1497 1184,1497"/>
+        <TextEquiv>
+          <Unicode>II.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r001">
+      <Coords points="232,2503 238,2995 694,3000 1260,2995 1416,2914 2014,2904 2014,2584 2005,2409 2013,2104 2013,1609 354,1604 238,1686 232,2503"/>
+      <TextLine id="f40b0ab7-2640-4dee-a13e-87e4d84eef11" index="0" custom="heights_v2:[65.4,19.6]">
+        <Coords points="2013,1609 1821,1609 1639,1609 1457,1609 1275,1609 1093,1609 911,1609 775,1605 354,1604 354,1689 546,1689 728,1689 911,1694 1093,1694 1275,1694 1457,1694 1639,1694 1821,1694 2013,1694 2013,1609"/>
+        <Baseline points="354,1669 546,1669 728,1669 911,1674 1093,1674 1275,1674 1457,1674 1639,1674 1821,1674 2013,1674"/>
+        <TextEquiv>
+          <Unicode>Obýval jsem malý útulný pokojík s oknem do</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="65dae56b-9c9c-4de4-b846-9c2879f60f0b" index="1" custom="heights_v2:[64.6,19.5]">
+        <Coords points="2013,1750 2012,1686 1804,1691 1609,1691 1416,1691 1219,1691 1029,1686 830,1686 637,1686 440,1686 238,1686 238,1770 440,1770 637,1770 830,1770 1026,1770 1219,1775 1416,1775 1609,1775 1806,1775 2013,1770 2013,1750"/>
+        <Baseline points="238,1750 440,1750 637,1750 830,1750 1027,1750 1219,1755 1416,1755 1609,1755 1806,1755 2013,1750"/>
+        <TextEquiv>
+          <Unicode>ovocné a z části i květinové zahrady, v té době</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="a5619ed8-6f01-4df4-9c13-3b8fca710d9f" index="2" custom="heights_v2:[65.6,19.8]">
+        <Coords points="2013,1771 1806,1771 1609,1771 1416,1771 1219,1771 1027,1771 830,1771 637,1771 440,1771 238,1771 238,1856 440,1856 637,1856 830,1856 1027,1856 1219,1856 1416,1856 1609,1856 1806,1856 2013,1856 2013,1771"/>
+        <Baseline points="238,1836 440,1836 637,1836 830,1836 1027,1836 1219,1836 1416,1836 1609,1836 1806,1836 2013,1836"/>
+        <TextEquiv>
+          <Unicode>plné květů a vůně. Zde u otevřeného okna trávil</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3dc1831b-7220-4ca0-b60b-c305da917975" index="3" custom="heights_v2:[65.1,19.7]">
+        <Coords points="243,1937 445,1937 637,1937 835,1942 1027,1942 1219,1942 1416,1942 1609,1942 1801,1942 2009,1937 2007,1852 1799,1857 1609,1857 1416,1857 1219,1857 1027,1857 835,1857 639,1852 445,1852 243,1852 243,1937"/>
+        <Baseline points="243,1917 445,1917 637,1917 835,1922 1027,1922 1219,1922 1416,1922 1609,1922 1801,1922 2008,1917"/>
+        <TextEquiv>
+          <Unicode>jsem první ranní hodiny až do okamžiku, kdy</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8c386591-b7fe-43c6-8bac-18fc172ddee1" index="4" custom="heights_v2:[63.7,19.5]">
+        <Coords points="238,2023 440,2023 632,2023 830,2023 1022,2023 1219,2023 1411,2023 1609,2023 1801,2023 2009,2018 2007,1934 1799,1939 1609,1939 1411,1939 1219,1939 1022,1939 830,1939 632,1939 440,1939 238,1939 238,2023"/>
+        <Baseline points="238,2003 440,2003 632,2003 830,2003 1022,2003 1219,2003 1411,2003 1609,2003 1801,2003 2008,1998"/>
+        <TextEquiv>
+          <Unicode>Ludva, zbavena konečně nejnaléhavějších, jí při-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="0f97f1c8-5885-4101-82e0-2e3672eb5542" index="5" custom="heights_v2:[62.5,19.4]">
+        <Coords points="2013,2022 1806,2022 1609,2022 1416,2022 1219,2022 1022,2022 830,2022 632,2022 435,2022 235,2022 235,2104 435,2104 632,2104 830,2104 1022,2104 1219,2104 1416,2104 1609,2104 1806,2104 2013,2104 2013,2022"/>
+        <Baseline points="235,2084 435,2084 632,2084 830,2084 1022,2084 1219,2084 1416,2084 1609,2084 1806,2084 2013,2084"/>
+        <TextEquiv>
+          <Unicode>dělených povinností mladé hospodyně, nacházela</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="5e932349-9b36-4689-aa7d-a4bf957598c6" index="6" custom="heights_v2:[61.6,18.6]">
+        <Coords points="234,2184 435,2184 632,2184 825,2184 1022,2184 1214,2184 1411,2184 1604,2184 1801,2184 2009,2179 2007,2098 1799,2103 1604,2103 1411,2103 1214,2103 1022,2103 825,2103 632,2103 435,2103 235,2103 234,2184"/>
+        <Baseline points="234,2165 435,2165 632,2165 825,2165 1022,2165 1214,2165 1411,2165 1604,2165 1801,2165 2008,2160"/>
+        <TextEquiv>
+          <Unicode>chvíli oddechu, již věnovala pěstění svých květi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3e1d4782-8437-4fa0-9fac-5a09200393d6" index="7" custom="heights_v2:[62.4,18.7]">
+        <Coords points="234,2260 435,2260 632,2260 825,2260 1022,2260 1214,2260 1411,2260 1604,2260 1801,2260 2009,2255 2007,2174 1799,2179 1604,2179 1411,2179 1214,2179 1022,2179 825,2179 632,2179 435,2179 234,2179 234,2260"/>
+        <Baseline points="234,2241 435,2241 632,2241 825,2241 1022,2241 1214,2241 1411,2241 1604,2241 1801,2241 2008,2236"/>
+        <TextEquiv>
+          <Unicode>nových záhonů. Tu přicházela s konévkou v ruce</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="de37513d-4f39-4f43-956a-215d7278e201" index="8" custom="heights_v2:[62.8,19.1]">
+        <Coords points="2008,2302 2007,2249 1799,2254 1602,2259 1411,2259 1216,2254 1020,2259 825,2259 632,2259 435,2259 234,2259 233,2341 435,2341 632,2341 825,2341 1022,2341 1214,2336 1411,2341 1604,2341 1801,2336 2007,2331 2008,2302"/>
+        <Baseline points="233,2322 435,2322 632,2322 825,2322 1022,2322 1214,2317 1411,2322 1604,2322 1801,2317 2008,2312"/>
+        <TextEquiv>
+          <Unicode>a pokaždé zastavila se u mého okna, aby vymě-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="47ca574f-5d82-4d7a-94be-6511f6618d04" index="9" custom="heights_v2:[63.6,19.4]">
+        <Coords points="233,2422 435,2422 627,2422 825,2422 1017,2422 1214,2422 1406,2422 1604,2422 1796,2417 2003,2417 2003,2334 1796,2334 1602,2339 1406,2339 1214,2339 1017,2339 825,2339 627,2339 435,2339 233,2339 233,2422"/>
+        <Baseline points="233,2403 435,2403 627,2403 825,2403 1017,2403 1214,2403 1406,2403 1604,2403 1796,2398 2003,2398"/>
+        <TextEquiv>
+          <Unicode>nila se mnou pozdrav a se pozeptala jak pokra-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="ba15942e-216f-4872-9868-30ad2a743875" index="10" custom="heights_v2:[64.3,19.6]">
+        <Coords points="1798,2420 1604,2419 1411,2419 1214,2419 1022,2419 823,2425 632,2425 435,2425 234,2420 232,2503 435,2508 632,2508 825,2508 1022,2503 1214,2503 1411,2503 1604,2503 1802,2503 2009,2493 2005,2409 1798,2420"/>
+        <Baseline points="233,2484 435,2489 632,2489 825,2489 1022,2484 1214,2484 1411,2484 1604,2484 1801,2484 2008,2474"/>
+        <TextEquiv>
+          <Unicode>čuje mé uzdravování. Naše ranní rozhovory bý-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="95e7cf15-3e9b-47cc-abf0-7ddb3e6e8275" index="11" custom="heights_v2:[63.4,19.6]">
+        <Coords points="2010,2501 1804,2506 1609,2506 1416,2506 1219,2506 1027,2506 830,2506 637,2506 440,2506 238,2506 238,2589 440,2589 637,2589 830,2589 1027,2589 1219,2589 1416,2589 1609,2589 1806,2589 2014,2584 2010,2501"/>
+        <Baseline points="238,2570 440,2570 637,2570 830,2570 1027,2570 1219,2570 1416,2570 1609,2570 1806,2570 2013,2565"/>
+        <TextEquiv>
+          <Unicode>valy velmi krátké. Přes to však, nedbal-li jsem o</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c421e466-aad7-4b52-af62-f68e24474185" index="12" custom="heights_v2:[62.6,19.7]">
+        <Coords points="238,2670 440,2670 637,2670 830,2670 1027,2670 1219,2670 1416,2670 1609,2670 1806,2670 2013,2670 2013,2588 1806,2588 1609,2588 1416,2588 1219,2588 1027,2588 830,2588 637,2588 440,2588 238,2588 238,2670"/>
+        <Baseline points="238,2651 440,2651 637,2651 830,2651 1027,2651 1219,2651 1416,2651 1609,2651 1806,2651 2013,2651"/>
+        <TextEquiv>
+          <Unicode>toto setkání a odešel o hodinu dříve na obvyklou</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="0085be9f-ebe7-4ebf-8859-d526f722ebf4" index="13" custom="heights_v2:[61.9,19.2]">
+        <Coords points="235,2751 435,2751 632,2751 830,2751 1022,2751 1219,2751 1417,2751 1609,2746 1806,2746 2014,2741 2012,2660 1804,2665 1609,2665 1415,2670 1219,2670 1022,2670 830,2670 632,2670 435,2670 234,2670 235,2751"/>
+        <Baseline points="235,2732 435,2732 632,2732 830,2732 1022,2732 1219,2732 1416,2732 1609,2727 1806,2727 2013,2721"/>
+        <TextEquiv>
+          <Unicode>svou dopolení vycházku, tu vždy jakési neuspo-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="cdb2874c-0040-45bc-9fd1-9193a32cc23a" index="14" custom="heights_v2:[63.3,19.5]">
+        <Coords points="236,2827 435,2832 632,2832 830,2832 1022,2827 1219,2827 1416,2827 1609,2827 1806,2827 2014,2822 2012,2739 1804,2744 1609,2744 1416,2744 1219,2744 1022,2744 828,2749 632,2749 435,2749 235,2744 236,2827"/>
+        <Baseline points="236,2808 435,2813 632,2813 830,2813 1022,2807 1219,2807 1416,2807 1609,2807 1806,2807 2013,2802"/>
+        <TextEquiv>
+          <Unicode>kojení naplnilo duši mou teskným neklidem, je-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c6c45dfd-0af9-4ab7-a5c0-47e6c6f367d1" index="15" custom="heights_v2:[65.2,20.2]">
+        <Coords points="2014,2904 2012,2818 1804,2823 1607,2828 1416,2828 1221,2823 1027,2823 828,2828 637,2828 440,2828 239,2823 237,2909 440,2914 637,2914 830,2914 1027,2909 1219,2909 1416,2914 2014,2904"/>
+        <Baseline points="238,2888 440,2893 637,2893 830,2893 1027,2888 1219,2888 1416,2893 1609,2893 1806,2888 2013,2883"/>
+        <TextEquiv>
+          <Unicode>hož jsem se nezbavil, dokud jsem se opět nevrá-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c61adc96-968b-4a8f-a43c-99b540acea04" index="16" custom="heights_v2:[63.9,20.6]">
+        <Coords points="1260,2910 1138,2910 1027,2910 916,2910 804,2910 690,2916 585,2911 470,2910 359,2910 238,2910 238,2995 359,2995 470,2995 581,2995 694,3000 804,2995 916,2995 1027,2995 1138,2995 1260,2995 1260,2910"/>
+        <Baseline points="238,2974 359,2974 470,2974 582,2974 693,2979 804,2974 916,2974 1027,2974 1138,2974 1260,2974"/>
+        <TextEquiv>
+          <Unicode>til do domu svých hostitelů.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r003">
+      <Coords points="2010,3050 1924,3056 1928,3131 2014,3126 2010,3050"/>
+      <TextLine id="e6686acf-5030-4a8d-8c8d-b5b4ef128c51" index="0" custom="heights_v2:[60.6,15.3]">
+        <Coords points="1924,3056 1928,3131 2014,3126 2010,3050 1924,3056"/>
+        <Baseline points="1927,3116 2013,3111"/>
+        <TextEquiv>
+          <Unicode>15</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>
