@@ -1,46 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <alto xmlns="http://www.loc.gov/standards/alto/ns-v4#"
-  xmlns:op="ORBIS-PICTUS"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# ../XSD/v4_alto-4.4.xsd"
-  >
+  xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Description>
-    
     <MeasurementUnit>pixel</MeasurementUnit>
-    
     <sourceImageInformation>
-      
       <fileName>NE-sample.xml</fileName>
     </sourceImageInformation>
-    
     <Processing ID="OCR_1">
-      
-        <processingDateTime>2024-11-14T15:20:00</processingDateTime>
-        <processingAgency>Moravská zemská knihovna v Brně</processingAgency>
-        <processingSoftware>
-          <softwareCreator>Boris Lehečka</softwareCreator>
-          <softwareName>copy-and-paste-and-change</softwareName>
-        </processingSoftware>
+      <processingCategory>contentGeneration</processingCategory>
+      <processingDateTime>2024-09-25T12:58:00</processingDateTime>
+      <processingAgency>Moravská zemská knihovna v Brně</processingAgency>
+      <processingSoftware>
+        <softwareCreator>Boris Lehečka</softwareCreator>
+        <softwareName>copy-and-paste-and-change</softwareName>
+        <softwareVersion>1</softwareVersion>
+      </processingSoftware>
     </Processing>
   </Description>
-  
+  <Styles>
+    <TextStyle ID="TXT_0" FONTFAMILY="Times New Roman" FONTSIZE="20"/>
+    <TextStyle ID="TXT_BOLD" FONTFAMILY="Times New Roman" FONTSIZE="20" FONTSTYLE="bold"/>
+    <ParagraphStyle ID="PAR_CENTER" ALIGN="Center"/>
+    <ParagraphStyle ID="PAR_BLOCK" ALIGN="Block"/>
+  </Styles>
   <Tags>
-    <NamedEntityTag ID="net.napoleon" LABEL="Napoleon" TYPE="person"></NamedEntityTag>
-    <NamedEntityTag ID="net.horse" LABEL="Horse" TYPE="animal"></NamedEntityTag>
-    <NamedEntityTag ID="net.map" LABEL="Map" TYPE="thing"></NamedEntityTag>
+    <NamedEntityTag ID="per.0001" LABEL="Person" DESCRIPTION="František Vomáčka">
+      <XmlData>
+        <mods:mods ID="MODS_PERS_0001">
+          <mods:name type="personal">
+            <mods:namePart type="family">Vomáčka</mods:namePart>
+            <mods:namePart type="given">František</mods:namePart>
+            <mods:role>
+              <mods:roleTerm type="text">Other</mods:roleTerm>
+              <mods:roleTerm type="code">oth</mods:roleTerm>
+              <mods:roleTerm valueURI="http://id.loc.gov/vocabulary/relators/oth" />
+            </mods:role>
+          </mods:name>
+          
+          <mods:identifier type="uuid">uuid:c6b0ea1e-81b4-48f8-96c4-5d65330e9323</mods:identifier>
+          
+          <mods:recordInfo>
+            <mods:recordCreationDate encoding="iso8601">2024-09-25T12:00:00</mods:recordCreationDate>
+            <mods:recordContentSource>PERO OCR</mods:recordContentSource>
+            <mods:descriptionStandard>StandardNDK</mods:descriptionStandard>
+            <mods:recordOrigin>machine generated</mods:recordOrigin>
+            <mods:recordInfoNote type="confidence">0.92</mods:recordInfoNote>
+            <mods:recordIdentifier source="PERO-OCR">c6b0ea1e-81b4-48f8-96c4-5d65330e9323_c6b0ea1e-81b4-48f8-96c4-5d65330e9322</mods:recordIdentifier>
+            <mods:languageOfCataloging>
+              <mods:languageTerm authority= "iso639-2b">cze</mods:languageTerm>
+            </mods:languageOfCataloging>
+          </mods:recordInfo>
+          
+        </mods:mods>
+      </XmlData>
+    </NamedEntityTag>
   </Tags>
+  
   <Layout>
-    
-    <Page ID="PAGE_8" HEIGHT="3572" WIDTH="2224" PHYSICAL_IMG_NR="8">
-      <PrintSpace ID="PrintSpace_9" HPOS="827" VPOS="302" HEIGHT="8" WIDTH="280">
-        <Illustration ID="Illustration_4" HPOS="220" VPOS="1472" HEIGHT="1036" WIDTH="1566" TYPE="Picture" TAGREFS="net.napoleon net.horse net.map" IDNEXT="label.caption">
-          <Shape> <!-- op:ne="net.napoleon" -->
-            <Polygon POINTS="641,33 1608,33 1608,601 3123,601 3123,3673 641,3673" />
-          </Shape>
-        </Illustration>
-        <TextBlock ID="label">
-          <TextLine>
-            <String ID="label.caption" CONTENT="Popisek obrázku"></String>
+    <Page ID="P0001" PHYSICAL_IMG_NR="1" HEIGHT="2185" WIDTH="1500">
+      <TopMargin HEIGHT="3" WIDTH="1500" VPOS="0" HPOS="0" ID="P0001_TM0001"/>
+      <LeftMargin HEIGHT="2185" WIDTH="240" VPOS="0" HPOS="0" ID="P0001_LM0001"/>
+      <RightMargin HEIGHT="2185" WIDTH="0" VPOS="0" HPOS="1500" ID="P0001_RM0001"/>
+      <BottomMargin HEIGHT="0" WIDTH="1500" VPOS="2185" HPOS="0" ID="P0001_BM0001"/>
+      <PrintSpace HEIGHT="2181" WIDTH="1259" VPOS="3" HPOS="240" ID="P0001_PS0001">
+        <TextBlock ID="P0001_TB0002" HEIGHT="490" WIDTH="785" VPOS="2011" HPOS="38" STYLEREFS="PAR_BLOCK TXT_0">
+          <TextLine ID="P0001_TL0002" VPOS="2096" HPOS="41" HEIGHT="54" WIDTH="782">
+            <String ID="P0001_ST0003" CONTENT="včerejší" HEIGHT="45" WIDTH="113" VPOS="2097" HPOS="51" WC="1"/>
+            <SP WIDTH="4" VPOS="2097" HPOS="165"/>
+            <String ID="P0001_ST0004" CONTENT="večerní," HEIGHT="46" WIDTH="201" VPOS="2099" HPOS="183" WC="1"/>
+            <SP WIDTH="4" VPOS="2099" HPOS="385"/>
+            <String ID="P0001_ST0005" CONTENT="procházka" HEIGHT="44" WIDTH="69" VPOS="2101" HPOS="420" WC="1"/>
+            <SP WIDTH="4" VPOS="2101" HPOS="490"/>
+            <String ID="P0001_ST0006" CONTENT="Františka" HEIGHT="44" WIDTH="64" VPOS="2102" HPOS="503" WC="1" TAGREFS="per.0001"/>
+            <SP WIDTH="4" VPOS="2102" HPOS="567"/>
+            <String ID="P0001_ST0007" CONTENT="Vomáčky" HEIGHT="44" WIDTH="36" VPOS="2103" HPOS="596" WC="1" TAGREFS="per.0001"/>
+            <SP WIDTH="4" VPOS="2103" HPOS="633"/>
+            <String ID="P0001_ST0008" CONTENT="dopadla" HEIGHT="44" WIDTH="58" VPOS="2104" HPOS="657" WC="1"/>
+            <SP WIDTH="4" VPOS="2104" HPOS="716"/>
+            <String ID="P0001_ST0009" CONTENT="tragicky." HEIGHT="44" WIDTH="75" VPOS="2105" HPOS="740" WC="1"/>
           </TextLine>
         </TextBlock>
       </PrintSpace>
